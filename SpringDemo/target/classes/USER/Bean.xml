@@ -1,0 +1,17 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id= "USER" class = "USER.USER1" scope = "prototype">  </bean>
+   <bean id= "userDAO" class = "com.purva.SpringDemo.DAO.impl.UserDAOImpl" >  </bean>
+   
+  <!-- <property name= "username" value = "purva kaul"/>
+  <property name= "password" value = "kaul"/>
+  <property name= "phone" value = "119"/>
+  
+    -->
+   
+  
+   
+</beans>
